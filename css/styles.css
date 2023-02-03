@@ -19,14 +19,14 @@ h1{
 }
 
 h2{
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight:bold;
     font-size:3rem;
     line-height: 1.5;
 }
 
 h3{
-    font-family: "Monserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 1.5rem;
    
@@ -55,7 +55,7 @@ p{
 .nav-item{
     padding: 0 18px; 
     font-size: 1.2rem;
-    font-family:"Monserrat", sans-serif;
+    font-family:"Montserrat", sans-serif;
 }
 
 .download-btn{
@@ -177,13 +177,14 @@ p{
     padding: 5% 10%; 
     text-align: center;
     color: grey;
-    font-size: 10px;
+    /* font-size: 15px; */
      
 }
 
 .footer-btn{
     margin: 15px 10px; 
     color:black;
+    font-size: 1.75rem;
 }
 
 .btn-div{
