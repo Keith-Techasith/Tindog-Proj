@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3 {
+h1,h2,h3,.nav-item {
     font-family: "Montserrat", sans-serif;
 
 }
@@ -37,12 +37,20 @@ p {
     line-height: 1.5;
 }
 
-#title {
+/* Background color section */
+.colored-section{
     background-color: #ff4c68;
-    color: white;
 }
 
+.white-section{
+    background-color: #fff;
+}
 
+/* Title Section */
+
+#title {
+    color: white;
+}
 
 .container-fluid {
     padding: 3% 10% 5%;
@@ -63,7 +71,6 @@ p {
 .nav-item {
     padding: 0 18px;
     font-size: 1.2rem;
-    font-family: "Montserrat", sans-serif;
 }
 
 .download-btn {
@@ -174,7 +181,6 @@ p {
 
 /* Call to Action Section */
 #cta {
-    background-color: #ff4c68;
     text-align: center;
     padding: 7% 15%;
     color: white;
